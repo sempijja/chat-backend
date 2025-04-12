@@ -11,7 +11,7 @@ const app = express();
 
 // --- CORS Configuration --- MUST allow your GitHub Pages URL! ---
 const allowedOrigins = [
-  'http://localhost:5173', // Default Vite port, adjust if needed for local testing
+  'http://localhost:8080', // Default Vite port, adjust if needed for local testing
   'https://shopy-engineering.github.io/ride-text-connect/',
   // Add any other origins if needed (e.g., another frontend dev's localhost)
 ];
