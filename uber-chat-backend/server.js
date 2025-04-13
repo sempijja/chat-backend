@@ -13,6 +13,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:8080', // Default Vite port, adjust if needed for local testing
   'https://shopy-engineering.github.io/ride-text-connect/',
+  'https://sempijja.github.io',
   // Add any other origins if needed (e.g., another frontend dev's localhost)
 ];
 
